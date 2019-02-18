@@ -1,0 +1,539 @@
+#header {
+
+	background:-webkit-radial-gradient(circle,rgb(7,84,90),rgb(11,136,147),
+
+	rgb(15,176,189),rgb(22,221,237),rgb(87,231,242),rgb(149,239,247));
+
+	background-size: cover;
+
+}
+
+
+
+.section {
+
+	background-color: #FFFFFF;
+
+	padding: 15px;
+
+	margin-bottom: 10px;
+
+	border-radius: 10px;
+
+}
+
+
+
+.img-circle {
+
+	border: 3px solid white;
+
+	border-radius: 50%;
+
+}
+
+
+
+#header img {
+
+	display: block;
+
+	width: 120px;
+
+	height: 100px;
+
+	margin: auto;
+
+}
+
+
+
+#header h1 {
+
+	font-size: 25pt;
+
+	color: rgb(0,255,50);
+
+	padding-top: 5px;
+
+	margin: 0;
+
+	font-weight: bolder;
+
+	text-align: center;
+
+	font-family: calligraphic;
+
+}
+
+
+
+
+
+
+
+.quote1 {
+
+	float: right;
+
+	font-size: 25pt;
+
+	font-family:"comic sans ms";
+
+	color: aqua;
+
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+
+
+
+}
+
+
+
+body {
+
+	background: -webkit-radial-gradient(circle,rgb(50,50,50),
+
+	rgb(100,100,100),rgb(150,150,150),rgb(200,200,200),rgb(100,100,100),
+
+	rgb(50,50,50))
+
+
+
+}
+
+
+
+#SideNav a {
+
+    position: absolute;
+
+    left: -80px; 
+
+    transition: 0.3s;
+
+    padding: 15px;
+
+    width: 200px;
+
+    text-decoration: none; 
+
+    font-size: 20px;
+
+    color: white;
+
+    border-radius: 0 5px 5px 0;
+
+}
+
+
+
+#SideNav a:hover {
+
+    left: 0;
+
+}
+
+
+
+#profile1 {
+
+    top: 200px;
+
+    background-color: #4CAF50;
+
+}
+
+
+
+#photo1 {
+
+    top: 260px;
+
+    background-color: #2196F3;
+
+}
+
+
+
+#aboutme1 {
+
+    top: 320px;
+
+    background-color: #f44336;
+
+}
+
+
+
+
+
+.logo {
+
+	position: absolute;
+
+	left: 80px;
+
+	top: 20px;
+
+	float: left;
+
+	width: 150px;
+
+	height: 150px;
+
+}
+
+
+
+* {
+
+    
+
+    box-sizing: border-box;
+
+
+
+ }
+
+
+
+
+
+#cubebody {
+
+
+
+    -webkit-perspective: 400px;
+
+    -webkit-perspective-origin: 15rem 5rem;
+
+    
+
+    perspective: 400px;
+
+    perspective-origin: 15rem 5rem;
+
+}
+
+
+
+.cube {
+
+    width: 10rem;
+
+    height: 10rem;
+
+    margin:5rem;
+
+
+
+    -webkit-transform-style: preserve-3d;
+
+    transform-style: preserve-3d;
+
+
+
+    -webkit-animation-name: cuberotate;
+
+    -webkit-animation-duration: 3s;
+
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-timing-function: linear;
+
+
+
+    animation-name: cuberotate;
+
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: linear;
+
+}
+
+
+
+
+
+@-webkit-keyframes cuberotate {
+
+	0% {-webkit-transform: rotateY(0deg)
+
+		rotateX(0deg);}
+
+	100% {transform: rotateY(360deg)
+
+		rotateX(360deg);}
+
+}
+
+
+
+@keyframes cuberotate {
+
+	0% {transform: rotateY(0deg)
+
+		rotateX(0deg);}
+
+	100% {transform: rotateY(360deg)
+
+		rotateX(360deg);}
+
+}
+
+
+
+.side {
+
+	width: 10rem;
+
+	height: 10rem;
+
+	background-color: gray;
+
+	opacity: 0.3;
+
+	border: 1px solid black;
+
+
+
+	font-size: 5rem;
+
+	text-align: center;
+
+	padding-top: 1.6rem;
+
+
+
+}
+
+
+
+.one {
+
+	-webkit-transform: translateZ(-5rem) 
+
+	rotateY(180deg);
+
+	transform: translateZ(-5rem) 
+
+	rotateY(180deg);
+
+}
+
+
+
+.two {
+
+	-webkit-transform: translateY(-15rem)
+
+	rotateX(90deg);
+
+	transform: translateY(-15rem)
+
+	rotateX(90deg);
+
+}
+
+
+
+.three {
+
+	-webkit-transform: translateY(-20rem)
+
+	translateX(5rem) rotateY(90deg);
+
+	transform: translateY(-20rem)
+
+	translateX(5rem) rotateY(90deg);
+
+}
+
+
+
+.four {
+
+	-webkit-transform: translateY(-30rem)
+
+	translateX(-5rem) rotateY(-90deg);
+
+	transform: translateY(-30rem)
+
+	translateX(-5rem) rotateY(-90deg);
+
+}
+
+
+
+.five {
+
+	-webkit-transform: translateY(-35rem)
+
+	rotateX(-90deg);
+
+	transform: translateY(-35rem)
+
+	rotateX(-90deg);
+
+}
+
+
+
+.six {
+
+	-webkit-transform: translateY(-50rem)
+
+	translateZ(5rem);
+
+	transform: translateY(-50rem)
+
+	translateZ(5rem);
+
+}
+
+
+
+.fotoprofil {
+
+	float: left;
+
+	width: 400px;
+
+	height: 350px;
+
+	margin-right: 40px;
+
+}
+
+
+
+#profiletext {
+
+	color: red;
+
+}
+
+
+
+#profile {
+
+	color: rgb(166,0,4);
+
+	font-family: "brush script mt";
+
+	font-size: 13pt;
+
+	float: both;
+
+}
+
+
+
+
+
+.komputer {
+
+	float: right;
+
+	width: 400px;
+
+	height: 350px;
+
+}
+
+
+
+.rendang {
+
+	float: left;
+
+	width: 400px;
+
+	height: 350px;
+
+}
+
+
+
+#fotohead {
+
+	text-align: center;
+
+	color: rgb(0,255,0);
+
+	font-size: 30pt;
+
+	font-family: harrington;
+
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+
+}
+
+
+
+.captfont {
+
+	font-weight: bold;
+
+	font-family: forte;
+
+	position: static;
+
+}
+
+
+
+.photosize {
+
+	width: 300px;
+
+	height: 200px;
+
+	
+
+}
+
+
+
+.float_left {
+
+	float: left;
+
+}
+
+
+
+#aboutmehead {
+
+	text-align: center;
+
+	color: blue;
+
+	font-size: 30pt;
+
+	clear: both;
+
+	float: none;
+
+	padding-top: 70px;
+
+	font-family: jokerman;
+
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+
+}
+
+
+
+.indent {
+
+	text-indent: 50px;
+
+	text-align: left;
+
+	font-size: 15pt;
+
+}
